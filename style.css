@@ -874,6 +874,18 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.intro-formulaire {
+    margin: 0;
+}
+
+.space {
+    margin-bottom: 15px;
+}
+
+.sr-only, .navbar-toggle {
+    display: none;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
