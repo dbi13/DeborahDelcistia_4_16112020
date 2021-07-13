@@ -419,6 +419,10 @@ ul {
         float: none;
         margin: 10px auto 0;
     }
+
+    .sr-only, .navbar-toggle {
+        display: none;
+    }
 }
 
 .nav > li > .dropdown a {
@@ -880,10 +884,6 @@ h4 {
 
 .space {
     margin-bottom: 15px;
-}
-
-.sr-only, .navbar-toggle {
-    display: none;
 }
 
 @media (max-width: 1024px) {
